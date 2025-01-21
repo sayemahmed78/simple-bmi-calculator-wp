@@ -1,0 +1,124 @@
+/* BMI Calculator Container */
+.bmi-calculator-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Form Labels */
+.bmi-calculator-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.bmi-calculator-container #bmi-calculator-form input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input Field Focus Effect */
+.bmi-calculator-container input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Input Field Hover Effect */
+.bmi-calculator-container input[type="number"]:hover {
+    border-color: #6c757d;
+}
+
+
+/* Button */
+#bmi-calculate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+#bmi-calculate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Display */
+#bmi-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+    display: none;
+}
+
+#bmi-range {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6c757d;
+    text-align: center;
+    font-style: italic;
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+}
+
+
+
+.sbmi-admin-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    background-color: #fdfcfc;
+    padding: 20px;
+    max-width: 50%;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+
+.sbmi-setting-part, .sbmi-author-info{
+    background: #f7f7f7;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.sbmi-author-info h3 {
+    margin-bottom: 10px;
+}
+
+.sbmi-author-info p {
+    margin-bottom: 10px;
+}
+
+.sbmi-author-info .author-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    background-clip: padding-box;
+    display: inline-block;
+    object-fit: contain;
+}
